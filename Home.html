@@ -13,6 +13,10 @@
     <script src="content/svg-injector.js"></script>
 
     <style>
+        #SVGMainHeroImg1 {
+            width: 70%;
+        }
+
         #SVGMainHero {
             height: 100%;
             width: 100%;
@@ -229,6 +233,24 @@
             background: #bb0000;
             color: white;
         }
+
+        hr.style-six {
+            padding: 0;
+            border: none;
+            height: 1px;
+            background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+            background-image: -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+            background-image: -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+            background-image: -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+            color: #333;
+            text-align: center;
+        }
+
+        @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+            #SVGMainHero figure {
+                height: 610px;
+            }
+        }
     </style>
 
 </head>
@@ -256,93 +278,86 @@
                 </ul>
             </div>
         </nav>
-        <div class="col-sm-6">
-            <div>
-                <h1 class="text-primary">
-                    <strong class="u-text-animation u-text-animation--typing"></strong><span class="typed-cursor typed-cursor--blink"></span>
-                </h1>
-            </div>
-            <div>
-                <h1 class="h3-Name">
-                    Maharshi Raval
-                </h1>
-            </div>
-            <div>
-                <h3 class="h3-Title">
-                    ASP.net developer, Freelancer
-                </h3>
-            </div>
-        </div>
-        <div class="col-sm-6">
 
-            <div id="SVGMainHero" class="d-none d-lg-block top-0 right-0 pr-0">
-                <figure class="ie-main-hero">
-                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1374.7 1083.6" style="enable-background:new 0 0 1374.7 1083.6;" xml:space="preserve" class="injected-svg js-svg-injector" data-img-paths="[{&quot;targetId&quot;: &quot;#SVGMainHeroImg1&quot;, &quot;newPath&quot;: &quot;../../assets/img/750x750/img2.jpg&quot;}]" data-parent="#SVGMainHero">
-                    <path class="main-hero-0 fill-primary" opacity="0.05" d="M285.2,170.1c-94.5,8.6-181.2,57.4-235.9,134.8C-34.7,423.6-54.5,621.5,349,879.8  c636.5,407.6,600,9.3,591.9-47.4c-0.8-5.5-1.4-11.1-2-16.6l-34.2-374.1C888.4,262,729.2,129.6,549.4,146L285.2,170.1z"></path>
-                    <g>
-                    <defs>
-                    <path id="mainHeroBlock1" d="M1374.7,0H687.6l-278,279.7c-150,150.9-148.1,395.3,4.4,543.8l0,0C554.1,960,774.9,968.7,925.4,843.6    l449.3-373.4V0z"></path>
-	                    </defs>
-                    <clipPath id="mainHeroBlock2">
-                    <use xlink:href="#mainHeroBlock1" style="overflow:visible;"></use>
-	                    </clipPath>
-                    <g transform="matrix(1 0 0 1 0 0)" style="clip-path:url(#mainHeroBlock2);">
-                    <image id="SVGMainHeroImg1" height="900" width="900" style="overflow:visible;" xlink:href="content/download.png" transform="matrix(1.4462 0 0 1.4448 290.09 0)"></image>
-	                    </g>
-                    </g>
-                </svg>
-                </figure>
-            </div>
+        <div class="row">
+            <hr class="style-six">
         </div>
 
-        <!--<div style="float: left; width: 100%; position: inherit;">
-            <div class="profile-social">
-                <ul class="social">
-                    <li>
-                        <a class="ripple-centered" href="http://www.facebook.com/MmaharshiI" target="_blank">
-                            <i class="rsicon rsicon-facebook"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a class="ripple-centered" href="https://www.twitter.com/dr_dimaka" target="_blank">
-                            <i class="rsicon rsicon-twitter"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a class="ripple-centered" href="https://www.linkedin.com/in/dimaka" target="_blank">
-                            <i class="rsicon rsicon-linkedin"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a class="ripple-centered" href="https://stackoverflow.com/users/804385/dmitry-pavlov" target="_blank">
-                            <i class="rsicon rsicon-stack-overflow"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a class="ripple-centered" href="https://github.com/dmitry-pavlov" target="_blank">
-                            <i class="rsicon rsicon-github"></i>
-                        </a>
-                    </li>
 
-                    <li>
-                        <a class="ripple-centered" href="skype:pavlovdmitry?add" target="_blank">
-                            <i class="rsicon rsicon-skype"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a class="ripple-centered" href="mailto:me@dmitry-pavlov.com" target="_blank">
-                            <i class="rsicon rsicon-envelope"></i>
-                        </a>
-                    </li>
-                </ul>
+        <div class="row" style="height:610px;">
+            <div class="col-sm-3">
+                <div>
+                    <h1 class="text-primary">
+                        <strong class="u-text-animation u-text-animation--typing"></strong><span class="typed-cursor typed-cursor--blink"></span>
+                    </h1>
+                </div>
+                <div>
+                    <h1 class="h3-Name">
+                        Maharshi Raval
+                    </h1>
+                </div>
+                <div>
+                    <h3 class="h3-Title">
+                        ASP.net developer, Freelancer
+                    </h3>
+                </div>
             </div>
-        </div>-->
+            <div class="col-sm-9">
+
+                <div class="col-lg-9 d-none d-lg-block position-absolute top-0 right-0 pr-0" id="SVGMainHero" style="float:right;">
+                    <figure class="ie-main-hero">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="injected-svg js-svg-injector" style="" viewBox="0 0 1374.7 1083.6" x="0px" y="0px" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve" data-parent="#SVGMainHero" data-img-paths="[&#10;                   {&quot;targetId&quot;: &quot;#SVGMainHeroImg1&quot;, &quot;newPath&quot;: &quot;../../assets/img/750x750/img2.jpg&quot;}&#10;                 ]">
+<style type="text/css">
+    .main-hero-0 {
+        fill: #377dff;
+    }
+</style>
+<path class="main-hero-0 fill-primary" opacity="0.05" d="M 285.2 170.1 c -94.5 8.6 -181.2 57.4 -235.9 134.8 C -34.7 423.6 -54.5 621.5 349 879.8 c 636.5 407.6 600 9.3 591.9 -47.4 c -0.8 -5.5 -1.4 -11.1 -2 -16.6 l -34.2 -374.1 C 888.4 262 729.2 129.6 549.4 146 L 285.2 170.1 Z" />
+<g>
+                        <defs>
+                        <path id="mainHeroBlock1" d="M 1374.7 0 H 687.6 l -278 279.7 c -150 150.9 -148.1 395.3 4.4 543.8 l 0 0 C 554.1 960 774.9 968.7 925.4 843.6 l 449.3 -373.4 V 0 Z" />
+	</defs>    
+                        <clipPath id="mainHeroBlock2">
+                        <use style="overflow: visible;" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#mainHeroBlock1" />
+	</clipPath>
+                        <g style="clip-path: url(&quot;#mainHeroBlock2&quot;);" transform="matrix(1 0 0 1 0 0)">
+                        <image id="SVGMainHeroImg1" style="overflow: visible;" transform="matrix(1.1462 0 0 1.1448 290.09 0)" width="750" height="750" xmlns:xlink="content/download1.png" xlink:href="content/download1.png" />
+	</g>
+</g>
+</svg>
+                    </figure>
+                </div>
+                <!-- SVG Background -->
+                <!--<div id="SVGMainHero" class="col-lg-9 col-xl-7 svg-preloader d-none d-lg-block position-absolute top-0 right-0 pr-0" >
+                    <figure class="ie-main-hero">
+                        <img class="js-svg-injector" src="content/download.png" alt="Image Description"
+                             data-img-paths='[
+                   {"targetId": "#SVGMainHeroImg1", "newPath": "../../assets/img/750x750/img2.jpg"}
+                 ]'
+                             data-parent="#SVGMainHero">
+                    </figure>
+                </div>-->
+                <!-- End SVG Background -->
+
+
+            </div>
+        </div>
+
+        <div class="row">
+            <hr class="style-six">
+        </div>
+
         <div class="col-sm-12">
             <div class="row">
                 <div>
                     <div class="col-sm-12">
                         <center><h1 class="text-primary"><strong>TOP SKILLS</strong></h1></center>
                     </div>
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
                     <div class="col-sm-12">
                         <div class="col-sm-6">
                             <div id="skills" class="col-centered">
@@ -405,6 +420,23 @@
                 </div>
             </div>
         </div>
+
+        <div class="col-sm-12">
+            <div class="row">
+                <hr class="style-six">
+            </div>
+        </div>
+        <div class="col-sm-12">
+            <div class="row">
+                <div class="col-sm-12">
+                    <center><h1 class="text-primary"><strong>CONTACT ME</strong></h1></center>
+                </div>
+            </div>
+
+        </div>
+
+
+
     </div>
 
     <script type="text/javascript">
