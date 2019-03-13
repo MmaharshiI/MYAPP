@@ -1,0 +1,794 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <!-- Title  -->
+    <title>Maharshi</title>
+
+    <!-- Favicon  -->
+    <link rel="icon" href="img/core-img/favicon.ico">
+
+    <!-- Core Style CSS -->
+    <link rel="stylesheet" href="css/core-style.css">
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Bitter|Cabin|Lobster|Oswald|Sniglet|Ubuntu|ZCOOL+QingKe+HuangYou" rel="stylesheet">
+
+
+
+    <style type="text/css">
+        .classynav {
+            float: right;
+        }
+
+        .header_area .classy-navbar {
+            width: 100%;
+            min-width: 100%;
+        }
+
+        .cls-squar-left {
+            border: 5px yellow solid;
+            background-color: transparent;
+            height: 50%;
+            width: 25%;
+            margin-top: 2%;
+            margin-left: 13%;
+            float: left;
+        }
+
+        .cls-squar-right {
+            background-color: yellow;
+            height: 50%;
+            width: 40%;
+            padding-top: 10%;
+            margin-top: 2%;
+            margin-right: 2%;
+            float: right;
+        }
+
+        .cls-squar-center {
+            background-color: yellow;
+            height: 47%;
+            width: 51%;
+            padding-top: 10%;
+            margin-left: 38%;
+            position: absolute;
+            top: 50%;
+        }
+
+        .skillbar {
+            position: relative;
+            display: block;
+            margin-bottom: 15px;
+            width: 100%;
+            /*background: #eee;*/
+            height: 35px;
+            border-radius: 3px;
+            -moz-border-radius: 3px;
+            -webkit-border-radius: 3px;
+            -webkit-transition: 0.4s linear;
+            -moz-transition: 0.4s linear;
+            -ms-transition: 0.4s linear;
+            -o-transition: 0.4s linear;
+            transition: 0.4s linear;
+            -webkit-transition-property: width, background-color;
+            -moz-transition-property: width, background-color;
+            -ms-transition-property: width, background-color;
+            -o-transition-property: width, background-color;
+            transition-property: width, background-color;
+        }
+
+        .skillbar-title {
+            position: absolute;
+            top: 0;
+            left: 0;
+            font-weight: bold;
+            font-size: 13px;
+            color: #fff;
+            /*background: #6adcfa;*/
+            -webkit-border-top-left-radius: 3px;
+            -webkit-border-bottom-left-radius: 4px;
+            -moz-border-radius-topleft: 3px;
+            -moz-border-radius-bottomleft: 3px;
+            border-top-left-radius: 3px;
+            border-bottom-left-radius: 3px;
+        }
+
+            .skillbar-title span {
+                display: block;
+                /*background: rgba(0, 0, 0, 0.1);*/
+                padding: 0 20px;
+                height: 35px;
+                line-height: 35px;
+                -webkit-border-top-left-radius: 3px;
+                -webkit-border-bottom-left-radius: 3px;
+                -moz-border-radius-topleft: 3px;
+                -moz-border-radius-bottomleft: 3px;
+                border-top-left-radius: 3px;
+                border-bottom-left-radius: 3px;
+            }
+
+        .skillbar-bar {
+            height: 35px;
+            width: 0px;
+            background: #6adcfa;
+            border-radius: 3px;
+            -moz-border-radius: 3px;
+            -webkit-border-radius: 3px;
+            float: left;
+        }
+
+        .welcome_area {
+            /*background-image: url(content/IMG_7136.JPG);*/
+            background-position: inherit;
+        }
+
+        /*font-family: 'Oswald', sans-serif;
+                font-family: 'Sniglet', cursive;
+                font-family: 'Ubuntu', sans-serif;
+                font-family: 'ZCOOL QingKe HuangYou', cursive;
+                font-family: 'Bitter', serif;
+                font-family: 'Cabin', sans-serif;
+                font-family: 'Lobster', cursive;*/
+
+        .text-download-cv {
+            font-family: Ubuntu;
+            text-align: center;
+            font-size: 40px;
+            font-weight: 500;
+            cursor: pointer;
+        }
+
+        h1.text-primary strong{
+            color: yellow;
+        }
+    </style>
+
+</head>
+
+<body>
+    <!-- ##### Header Area Start ##### -->
+    <header class="header_area">
+        <div class="classy-nav-container breakpoint-off d-flex align-items-center justify-content-between">
+            <!-- Classy Menu -->
+            <nav class="classy-navbar" id="essenceNav">
+                <!-- Logo -->
+                <a class="nav-brand" href="index.html"><img src="img/core-img/logo.png" alt=""></a>
+                <!-- Navbar Toggler -->
+                <div class="classy-navbar-toggler">
+                    <span class="navbarToggler"><span></span><span></span><span></span></span>
+                </div>
+                <div>
+                    <!-- Menu -->
+                    <div class="classy-menu">
+                        <!-- close btn -->
+                        <div class="classycloseIcon">
+                            <div class="cross-wrap"><span class="top"></span><span class="bottom"></span></div>
+                        </div>
+                        <!-- Nav Start -->
+                        <div class="classynav">
+                            <ul>
+                                <li>
+                                    <a href="#">Shop</a>
+                                    <div class="megamenu">
+                                        <!--<ul class="single-mega cn-col-4">
+                                            <li class="title">Women's Collection</li>
+                                            <li><a href="shop.html">Dresses</a></li>
+                                            <li><a href="shop.html">Blouses &amp; Shirts</a></li>
+                                            <li><a href="shop.html">T-shirts</a></li>
+                                            <li><a href="shop.html">Rompers</a></li>
+                                            <li><a href="shop.html">Bras &amp; Panties</a></li>
+                                        </ul>
+                                        <ul class="single-mega cn-col-4">
+                                            <li class="title">Men's Collection</li>
+                                            <li><a href="shop.html">T-Shirts</a></li>
+                                            <li><a href="shop.html">Polo</a></li>
+                                            <li><a href="shop.html">Shirts</a></li>
+                                            <li><a href="shop.html">Jackets</a></li>
+                                            <li><a href="shop.html">Trench</a></li>
+                                        </ul>
+                                        <ul class="single-mega cn-col-4">
+                                            <li class="title">Kid's Collection</li>
+                                            <li><a href="shop.html">Dresses</a></li>
+                                            <li><a href="shop.html">Shirts</a></li>
+                                            <li><a href="shop.html">T-shirts</a></li>
+                                            <li><a href="shop.html">Jackets</a></li>
+                                            <li><a href="shop.html">Trench</a></li>
+                                        </ul>-->
+
+                                        <div class="single-mega cn-col-4">
+                                            <img src="img/bg-img/bg-6.jpg" alt="Namkeen">
+                                        </div>
+
+                                        <div class="single-mega cn-col-4">
+                                            <img src="img/bg-img/bg-6.jpg" alt="Fast Food">
+                                        </div>
+
+                                    </div>
+                                </li>
+                                <li>
+                                    <a href="#">Pages</a>
+                                    <ul class="dropdown">
+                                        <li><a href="index.html">Home</a></li>
+                                        <li><a href="shop.html">Shop</a></li>
+                                        <li><a href="single-product-details.html">Product Details</a></li>
+                                        <li><a href="checkout.html">Checkout</a></li>
+                                        <li><a href="blog.html">Blog</a></li>
+                                        <li><a href="single-blog.html">Single Blog</a></li>
+                                        <li><a href="regular-page.html">Regular Page</a></li>
+                                        <li><a href="contact.html">Contact</a></li>
+                                    </ul>
+                                </li>
+                                <!--<li><a href="blog.html">Blog</a></li>
+                                <li><a href="contact.html">Contact</a></li>-->
+                            </ul>
+                        </div>
+                        <!-- Nav End -->
+                    </div>
+
+                </div>
+            </nav>
+
+            <!-- Header Meta Data -->
+            <div class="header-meta d-flex clearfix justify-content-end">
+                <!-- Search Area -->
+                <!--<div class="search-area">
+                    <form action="#" method="post">
+                        <input type="search" name="search" id="headerSearch" placeholder="Type for search">
+                        <button type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+                    </form>
+                </div>-->
+                <!-- Favourite Area -->
+                <!-- <div class="favourite-area">
+                    <a href="#"><img src="img/core-img/heart.svg" alt=""></a>
+                </div>-->
+                <!-- User Login Info -->
+                <!--<div class="user-login-info">
+                    <a href="#"><img src="img/core-img/user.svg" alt=""></a>
+                </div>-->
+                <!-- Cart Area -->
+                <!--<div class="cart-area">
+                        <a href="#" id="essenceCartBtn"><img src="img/core-img/bag.svg" alt=""> <span>3</span></a>
+                    </div>
+                </div>-->
+
+            </div>
+        </div>
+    </header>
+    <!-- ##### Header Area End ##### -->
+    <!-- ##### Right Side Cart Area ##### -->
+    <div class="cart-bg-overlay"></div>
+
+    <div class="right-side-cart-area">
+
+        <!-- Cart Button -->
+        <div class="cart-button">
+            <a href="#" id="rightSideCart"><img src="img/core-img/bag.svg" alt=""> <span>3</span></a>
+        </div>
+
+        <div class="cart-content d-flex">
+
+            <!-- Cart List Area -->
+            <div class="cart-list">
+                <!-- Single Cart Item -->
+                <div class="single-cart-item">
+                    <a href="#" class="product-image">
+                        <img src="img/product-img/product-1.jpg" class="cart-thumb" alt="">
+                        <!-- Cart Item Desc -->
+                        <div class="cart-item-desc">
+                            <span class="product-remove"><i class="fa fa-close" aria-hidden="true"></i></span>
+                            <span class="badge">Mango</span>
+                            <h6>Button Through Strap Mini Dress</h6>
+                            <p class="size">Size: S</p>
+                            <p class="color">Color: Red</p>
+                            <p class="price">$45.00</p>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- Single Cart Item -->
+                <div class="single-cart-item">
+                    <a href="#" class="product-image">
+                        <img src="img/product-img/product-2.jpg" class="cart-thumb" alt="">
+                        <!-- Cart Item Desc -->
+                        <div class="cart-item-desc">
+                            <span class="product-remove"><i class="fa fa-close" aria-hidden="true"></i></span>
+                            <span class="badge">Mango</span>
+                            <h6>Button Through Strap Mini Dress</h6>
+                            <p class="size">Size: S</p>
+                            <p class="color">Color: Red</p>
+                            <p class="price">$45.00</p>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- Single Cart Item -->
+                <div class="single-cart-item">
+                    <a href="#" class="product-image">
+                        <img src="img/product-img/product-3.jpg" class="cart-thumb" alt="">
+                        <!-- Cart Item Desc -->
+                        <div class="cart-item-desc">
+                            <span class="product-remove"><i class="fa fa-close" aria-hidden="true"></i></span>
+                            <span class="badge">Mango</span>
+                            <h6>Button Through Strap Mini Dress</h6>
+                            <p class="size">Size: S</p>
+                            <p class="color">Color: Red</p>
+                            <p class="price">$45.00</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Cart Summary -->
+            <div class="cart-amount-summary">
+
+                <h2>Summary</h2>
+                <ul class="summary-table">
+                    <li><span>subtotal:</span> <span>$274.00</span></li>
+                    <li><span>delivery:</span> <span>Free</span></li>
+                    <li><span>discount:</span> <span>-15%</span></li>
+                    <li><span>total:</span> <span>$232.00</span></li>
+                </ul>
+                <div class="checkout-btn mt-100">
+                    <a href="checkout.html" class="btn essence-btn">check out</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ##### Right Side Cart End ##### -->
+    <!-- ##### Welcome Area Start ##### -->
+    <!-- style="background-image: url(img/bg-img/bg-1.jpg);" -->
+    <section class="welcome_area bg-img background-overlay">
+
+        <div class="cls-squar-left">
+            <img src="content/download1.png" style="height:100%; width:100%;" />
+        </div>
+
+
+        <a href="https://dl7.volafile.org/get/CCSInpGZJG37F/Maharshi%20Raval%20P.pdf" target="_blank">
+            <div class="cls-squar-right text-download-cv">
+                DOWNLOAD CV
+            </div>
+        </a>
+        <a onclick="smoothScroll(document.getElementById('divSkills'))">
+            <div class="cls-squar-center text-download-cv">
+                SKILLS
+            </div>
+        </a>
+
+    </section>
+    <!-- ##### Welcome Area End ##### -->
+
+    <section id="divSkills" style="height:600px;">
+
+        <div class="col-sm-12">
+            <center><h1 class="text-primary"><strong style="text-underline-position: under; text-decoration: underline; text-decoration-color: black;">TOP SKILLS</strong></h1></center>
+        </div>
+
+        <div>
+            <div style="width:50%; float:left;">
+                <div id="skills" class="col-centered">
+                    <div class="skillbar clearfix " data-percent="95%">
+                        <div class="skillbar-title" style="background: gold;"><span>ASP.net</span></div>
+                        <div class="skillbar-bar" style="background: gold;"></div>
+                        <div class="skill-bar-percent">95%</div>
+                    </div>
+                    <div class="skillbar clearfix" data-percent="90%">
+                        <div class="skillbar-title" style="background: gold;"><span>C#</span></div>
+                        <div class="skillbar-bar" style="background: gold;"></div>
+                        <div class="skill-bar-percent">90%</div>
+                    </div>
+                    <div class="skillbar clearfix" data-percent="95%">
+                        <div class="skillbar-title" style="background: gold;"><span>SQL server</span></div>
+                        <div class="skillbar-bar" style="background: gold;"></div>
+                        <div class="skill-bar-percent">95%</div>
+                    </div>
+                    <div class="skillbar clearfix" data-percent="85%">
+                        <div class="skillbar-title" style="background: gold;"><span>postgre sql</span></div>
+                        <div class="skillbar-bar" style="background: gold;"></div>
+                        <div class="skill-bar-percent">85%</div>
+                    </div>
+                    <div class="skillbar clearfix" data-percent="98%">
+                        <div class="skillbar-title" style="background: gold;"><span>Jquery</span></div>
+                        <div class="skillbar-bar" style="background: gold;"></div>
+                        <div class="skill-bar-percent">98%</div>
+                    </div>
+                </div>
+            </div>
+
+            <div style="width:50%; float:right;">
+                <div class="skillbar clearfix" data-percent="80%">
+                    <div class="skillbar-title" style="background: gold;"><span>VB.net</span></div>
+                    <div class="skillbar-bar" style="background: gold;"></div>
+                    <div class="skill-bar-percent">80%</div>
+                </div>
+                <div class="skillbar clearfix" data-percent="80%">
+                    <div class="skillbar-title" style="background: gold;"><span>Web APIs</span></div>
+                    <div class="skillbar-bar" style="background: gold;"></div>
+                    <div class="skill-bar-percent">80%</div>
+                </div>
+                <div class="skillbar clearfix" data-percent="75%">
+                    <div class="skillbar-title" style="background: gold;"><span>JVector map</span></div>
+                    <div class="skillbar-bar" style="background: gold;"></div>
+                    <div class="skill-bar-percent">75%</div>
+                </div>
+                <div class="skillbar clearfix" data-percent="75%">
+                    <div class="skillbar-title" style="background: gold;"><span>MySql</span></div>
+                    <div class="skillbar-bar" style="background: gold;"></div>
+                    <div class="skill-bar-percent">75%</div>
+                </div>
+                <div class="skillbar clearfix" data-percent="75%">
+                    <div class="skillbar-title" style="background: gold;"><span>Application security</span></div>
+                    <div class="skillbar-bar" style="background: gold;"></div>
+                    <div class="skill-bar-percent">75%</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ##### Top Catagory Area Start ##### -->
+    <div class="top_catagory_area section-padding-80 clearfix">
+        <div class="container">
+            <div class="row justify-content-center">
+                <!-- Single Catagory -->
+                <div class="col-12 col-sm-6 col-md-4">
+                    <div class="single_catagory_area d-flex align-items-center justify-content-center bg-img" style="background-image: url(img/bg-img/bg-2.jpg);">
+                        <div class="catagory-content">
+                            <a href="#">Namkeen</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Single Catagory -->
+                <div class="col-12 col-sm-6 col-md-4">
+                    <div class="single_catagory_area d-flex align-items-center justify-content-center bg-img" style="background-image: url(img/bg-img/bg-3.jpg);">
+                        <div class="catagory-content">
+                            <a href="#">Fast Food</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Single Catagory -->
+                <!--<div class="col-12 col-sm-6 col-md-4">
+                    <div class="single_catagory_area d-flex align-items-center justify-content-center bg-img" style="background-image: url(img/bg-img/bg-4.jpg);">
+                        <div class="catagory-content">
+                            <a href="#">Accessories</a>
+                        </div>
+                    </div>
+                </div>-->
+            </div>
+        </div>
+    </div>
+    <!-- ##### Top Catagory Area End ##### -->
+    <!-- ##### CTA Area Start ##### -->
+    <div class="cta-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="cta-content bg-img background-overlay" style="background-image: url(img/bg-img/bg-5.jpg);">
+                        <div class="h-100 d-flex align-items-center justify-content-end">
+                            <div class="cta--text">
+                                <h6>-60%</h6>
+                                <h2>Global Sale</h2>
+                                <a href="#" class="btn essence-btn">Buy Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ##### CTA Area End ##### -->
+    <!-- ##### New Arrivals Area Start ##### -->
+    <section class="new_arrivals_area section-padding-80 clearfix">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="section-heading text-center">
+                        <h2>Popular Products</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="popular-products-slides owl-carousel">
+
+                        <!-- Single Product -->
+                        <div class="single-product-wrapper">
+                            <!-- Product Image -->
+                            <div class="product-img">
+                                <img src="img/product-img/product-1.jpg" alt="">
+                                <!-- Hover Thumb -->
+                                <img class="hover-img" src="img/product-img/product-2.jpg" alt="">
+                                <!-- Favourite -->
+                                <div class="product-favourite">
+                                    <a href="#" class="favme fa fa-heart"></a>
+                                </div>
+                            </div>
+                            <!-- Product Description -->
+                            <div class="product-description">
+                                <span>topshop</span>
+                                <a href="single-product-details.html">
+                                    <h6>Knot Front Mini Dress</h6>
+                                </a>
+                                <p class="product-price">$80.00</p>
+
+                                <!-- Hover Content -->
+                                <div class="hover-content">
+                                    <!-- Add to Cart -->
+                                    <div class="add-to-cart-btn">
+                                        <a href="#" class="btn essence-btn">Add to Cart</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Single Product -->
+                        <div class="single-product-wrapper">
+                            <!-- Product Image -->
+                            <div class="product-img">
+                                <img src="img/product-img/product-2.jpg" alt="">
+                                <!-- Hover Thumb -->
+                                <img class="hover-img" src="img/product-img/product-3.jpg" alt="">
+                                <!-- Favourite -->
+                                <div class="product-favourite">
+                                    <a href="#" class="favme fa fa-heart"></a>
+                                </div>
+                            </div>
+                            <!-- Product Description -->
+                            <div class="product-description">
+                                <span>topshop</span>
+                                <a href="single-product-details.html">
+                                    <h6>Poplin Displaced Wrap Dress</h6>
+                                </a>
+                                <p class="product-price">$80.00</p>
+
+                                <!-- Hover Content -->
+                                <div class="hover-content">
+                                    <!-- Add to Cart -->
+                                    <div class="add-to-cart-btn">
+                                        <a href="#" class="btn essence-btn">Add to Cart</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Single Product -->
+                        <div class="single-product-wrapper">
+                            <!-- Product Image -->
+                            <div class="product-img">
+                                <img src="img/product-img/product-3.jpg" alt="">
+                                <!-- Hover Thumb -->
+                                <img class="hover-img" src="img/product-img/product-4.jpg" alt="">
+
+                                <!-- Product Badge -->
+                                <div class="product-badge offer-badge">
+                                    <span>-30%</span>
+                                </div>
+
+                                <!-- Favourite -->
+                                <div class="product-favourite">
+                                    <a href="#" class="favme fa fa-heart"></a>
+                                </div>
+                            </div>
+                            <!-- Product Description -->
+                            <div class="product-description">
+                                <span>mango</span>
+                                <a href="single-product-details.html">
+                                    <h6>PETITE Crepe Wrap Mini Dress</h6>
+                                </a>
+                                <p class="product-price"><span class="old-price">$75.00</span> $55.00</p>
+
+                                <!-- Hover Content -->
+                                <div class="hover-content">
+                                    <!-- Add to Cart -->
+                                    <div class="add-to-cart-btn">
+                                        <a href="#" class="btn essence-btn">Add to Cart</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Single Product -->
+                        <div class="single-product-wrapper">
+                            <!-- Product Image -->
+                            <div class="product-img">
+                                <img src="img/product-img/product-4.jpg" alt="">
+                                <!-- Hover Thumb -->
+                                <img class="hover-img" src="img/product-img/product-5.jpg" alt="">
+
+                                <!-- Product Badge -->
+                                <div class="product-badge new-badge">
+                                    <span>New</span>
+                                </div>
+
+                                <!-- Favourite -->
+                                <div class="product-favourite">
+                                    <a href="#" class="favme fa fa-heart"></a>
+                                </div>
+                            </div>
+                            <!-- Product Description -->
+                            <div class="product-description">
+                                <span>mango</span>
+                                <a href="single-product-details.html">
+                                    <h6>PETITE Belted Jumper Dress</h6>
+                                </a>
+                                <p class="product-price">$80.00</p>
+
+                                <!-- Hover Content -->
+                                <div class="hover-content">
+                                    <!-- Add to Cart -->
+                                    <div class="add-to-cart-btn">
+                                        <a href="#" class="btn essence-btn">Add to Cart</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ##### New Arrivals Area End ##### -->
+    <!-- ##### Brands Area Start ##### -->
+    <div class="brands-area d-flex align-items-center justify-content-between">
+        <!-- Brand Logo -->
+        <div class="single-brands-logo">
+            <img src="img/core-img/brand1.png" alt="">
+        </div>
+        <!-- Brand Logo -->
+        <div class="single-brands-logo">
+            <img src="img/core-img/brand2.png" alt="">
+        </div>
+        <!-- Brand Logo -->
+        <div class="single-brands-logo">
+            <img src="img/core-img/brand3.png" alt="">
+        </div>
+        <!-- Brand Logo -->
+        <div class="single-brands-logo">
+            <img src="img/core-img/brand4.png" alt="">
+        </div>
+        <!-- Brand Logo -->
+        <div class="single-brands-logo">
+            <img src="img/core-img/brand5.png" alt="">
+        </div>
+        <!-- Brand Logo -->
+        <div class="single-brands-logo">
+            <img src="img/core-img/brand6.png" alt="">
+        </div>
+    </div>
+    <!-- ##### Brands Area End ##### -->
+    <!-- ##### Footer Area Start ##### -->
+    <footer class="footer_area clearfix">
+        <div class="container">
+            <div class="row">
+                <!-- Single Widget Area -->
+                <div class="col-12 col-md-6">
+                    <div class="single_widget_area d-flex mb-30">
+                        <!-- Logo -->
+                        <div class="footer-logo mr-50">
+                            <a href="#"><img src="img/core-img/logo2.png" alt=""></a>
+                        </div>
+                        <!-- Footer Menu -->
+                        <div class="footer_menu">
+                            <ul>
+                                <li><a href="shop.html">Shop</a></li>
+                                <li><a href="blog.html">Blog</a></li>
+                                <li><a href="contact.html">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- Single Widget Area -->
+                <div class="col-12 col-md-6">
+                    <div class="single_widget_area mb-30">
+                        <ul class="footer_widget_menu">
+                            <li><a href="#">Order Status</a></li>
+                            <li><a href="#">Payment Options</a></li>
+                            <li><a href="#">Shipping and Delivery</a></li>
+                            <li><a href="#">Guides</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Terms of Use</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row align-items-end">
+                <!-- Single Widget Area -->
+                <div class="col-12 col-md-6">
+                    <div class="single_widget_area">
+                        <div class="footer_heading mb-30">
+                            <h6>Subscribe</h6>
+                        </div>
+                        <div class="subscribtion_form">
+                            <form action="#" method="post">
+                                <input type="email" name="mail" class="mail" placeholder="Your email here">
+                                <button type="submit" class="submit"><i class="fa fa-long-arrow-right" aria-hidden="true"></i></button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <!-- Single Widget Area -->
+                <div class="col-12 col-md-6">
+                    <div class="single_widget_area">
+                        <div class="footer_social_area">
+                            <a href="#" data-toggle="tooltip" data-placement="top" title="Facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                            <a href="#" data-toggle="tooltip" data-placement="top" title="Instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                            <a href="#" data-toggle="tooltip" data-placement="top" title="Twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                            <a href="#" data-toggle="tooltip" data-placement="top" title="Pinterest"><i class="fa fa-pinterest" aria-hidden="true"></i></a>
+                            <a href="#" data-toggle="tooltip" data-placement="top" title="Youtube"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mt-5">
+                <div class="col-md-12 text-center">
+                    <p>
+                        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                        Copyright &copy;
+                        <script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+                        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+    <!-- ##### Footer Area End ##### -->
+    <!-- jQuery (Necessary for All JavaScript Plugins) -->
+    <script src="js/jquery/jquery-2.2.4.min.js"></script>
+    <!-- Popper js -->
+    <script src="js/popper.min.js"></script>
+    <!-- Bootstrap js -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Plugins js -->
+    <script src="js/plugins.js"></script>
+    <!-- Classy Nav js -->
+    <script src="js/classy-nav.min.js"></script>
+    <!-- Active js -->
+    <script src="js/active.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            //var typed = new Typed(".u-text-animation.u-text-animation--typing", { strings: ["INTRODUCTION", "INTRODUCTION", "INTRODUCTION"], typeSpeed: 100, loop: false, backSpeed: 25, backDelay: 1500 });
+            $(window).on('scroll', function () { if ($(window).scrollTop() + $(window).height() > $('#skills').offset().top) { $('.skillbar').each(function () { $(this).find('.skillbar-bar').animate({ width: $(this).attr('data-percent') }, 3000); }); } });
+
+
+            window.smoothScroll = function (target) {
+                var scrollContainer = target;
+                do { //find scroll container
+                    scrollContainer = scrollContainer.parentNode;
+                    if (!scrollContainer) return;
+                    scrollContainer.scrollTop += 1;
+                } while (scrollContainer.scrollTop == 0);
+
+                var targetY = 0;
+                do { //find the top of target relatively to the container
+                    if (target == scrollContainer) break;
+                    targetY += target.offsetTop;
+                } while (target = target.offsetParent);
+
+                scroll = function (c, a, b, i) {
+                    i++; if (i > 30) return;
+                    c.scrollTop = a + (b - a) / 30 * i;
+                    setTimeout(function () { scroll(c, a, b, i); }, 20);
+                }
+                // start scrolling
+                scroll(scrollContainer, scrollContainer.scrollTop, targetY - 85, 0);
+            }
+
+
+        });
+    </script>
+
+</body>
+
+</html>
